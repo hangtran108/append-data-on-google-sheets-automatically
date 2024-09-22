@@ -35,7 +35,7 @@ Before starting, make sure you have:
 2. **Run query**, **download** the dataset and **import CSV file** to a sheet in Google Sheets
 3. **Paste query** to a specific cell in a new sheet in your existing Google Sheets file: You can name the sheet whatever you like, in my example, I name it "query" sheet.
 5. Click **Extension** -> **Apps Script**
-6. Paste the code in the **Code.js**
+6. Paste the code in the **append_code.js**
 7. **Change important information** below:
 - Name of the sheet containing your query
 - The cell containing your query
