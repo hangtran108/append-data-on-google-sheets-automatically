@@ -32,7 +32,7 @@ function raw() {
     }
     var projectId = 'your project id';
     var spreadsheet = SpreadsheetApp.getActive();
-    var sheet = spreadsheet.getSheetByName("data daily"); //Tên sheet data muốn đẩy vào
+    var sheet = spreadsheet.getSheetByName("data daily"); // Name of the sheet that you want to import data to
     if (!delete_until_col) {
       var last_col = sheet.getLastColumn();
     } else {
